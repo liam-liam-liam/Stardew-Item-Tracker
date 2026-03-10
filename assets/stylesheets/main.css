@@ -4,15 +4,13 @@
     box-sizing: border-box;
 }
 body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../backgroundImages/frame_0_delay-1.2s.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .itemButton {
-    /* background-image: url("../frame.jpg"); */
     width: 19.5%;
-    /* height: 100%; */
     background-size: cover;
 }
 .itemButton img {
