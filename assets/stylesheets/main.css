@@ -10,8 +10,8 @@ body {
 }
 
 .itemButton {
-    width: 19.5%;
     background-size: cover;
+   
 }
 .itemButton img {
     width: 100%;
@@ -23,4 +23,8 @@ body {
     left: 0;
     right: 0;
     margin: auto;
+    grid-template-columns: auto auto auto auto auto ;
+    display: grid;
+    gap: 6%;
+    
 }
